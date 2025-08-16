@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Para o Amor da Minha Vida 💖</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.4em;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    .gallery img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .love-button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #ff69b4;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .love-button:hover {
+      transform: scale(1.1);
+      background-color: #ff85c1;
+    }
+
+    .message-hidden {
+      display: none;
+      margin-top: 30px;
+      font-size: 1.6em;
+      color: #d10068;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oi, meu amor 💕</h1>
+
+  <p>
+    Fiz esse pequeno site só pra te lembrar o quanto você é especial pra mim
+    eu te amo demais cocozao ,voce e o lugar onde eu sinto paz onde eu me sinto seguro
+    onde eu posso ser eu mesmo ,onde eu nao preciso ter medo , voce e a minha felicidade vida
+   ,1ano e 9meses , , eu te amo muito gata 💕
+  </p>
+
+  <div class="gallery">
+    <img src="minha-foto.jpg..jpg" alt="Foto 1">
+    <img src="foto2.jpg" alt="Foto 2">
+    <img src="foto3.jpg"alt="Foto 3">
+    <img src="eu.jpg"alt="foto do gostoso">
+  </div>
+
+  <button class="love-button" onclick="showMessage()">Clique aqui se você me ama.</button>
+
+  <div id="hiddenMessage" class="message-hidden">
+    Você é o amor da minha vida
+    meu cocozao
+    meu camelao
+    minha fedida 
+    eu te amo muito
+    💕💕💕💕💕💕   💕💕💕💕💕     💕💕💕💕💕       💕💕          💕💕    💕💕💕💕💕💕
+    💕         💕               💕         💕      
+  </div>  
+
+  <!-- Música de fundo -->
+  <audio autoplay loop hidden>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio HTML.
+  </audio>
+
+  <script>
+    function showMessage() {
+      document.getElementById("hiddenMessage").style.display = "block";
+    }
+  </script>
+</body>
+</html>
